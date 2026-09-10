@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Training artefacts (large — never commit)
+runs/
+datasets/
+*.zip
+*.cache
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated reports
+inspection_report_*.csv
+
+# best.pt is small (~5–6 MB for a nano model) and IS committed on purpose.
+# If your weights exceed ~50 MB, uncomment the next line and use git-lfs or HF Hub instead.
+# model/*.pt
