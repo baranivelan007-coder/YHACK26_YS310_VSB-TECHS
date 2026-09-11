@@ -13,7 +13,7 @@ import numpy as np
 # ---------------------------------------------------------------------------
 
 # Where the trained weights live. Override with the MODEL_PATH env variable.
-MODEL_PATH = os.environ.get("MODEL_PATH", os.path.join("model", "best.pt"))
+MODEL_PATH = os.environ.get("MODEL_PATH", os.path.join("model", "bestest.pt"))
 
 # DEMO THRESHOLD. A detection below this confidence is ignored.
 # 0.25 is Ultralytics' default and is NOT a scientifically tuned value.
